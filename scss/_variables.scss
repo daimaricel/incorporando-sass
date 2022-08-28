@@ -1,0 +1,19 @@
+
+$verde-paleta:#006736;
+$naranja-paleta: #db9300;
+$margin-standar: 1rem;
+$fuente: "Ruda", sans-serif;
+
+@mixin degrade{ background: rgb(0, 103, 48);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 103, 48, 1) 32%,
+      rgba(219, 147, 0, 1) 89%
+    );
+}
+
+@mixin alineacionCentral{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

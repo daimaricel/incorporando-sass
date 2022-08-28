@@ -1,0 +1,114 @@
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color: $verde-paleta;
+
+  img {
+    margin: $margin-standar;
+  }
+
+  .menu {
+    a {
+      margin: $margin-standar/2;
+      width: 170px;
+      color: white;
+      font-size: 18px;
+      transition: all 0.5s;
+      @include alineacionCentral;
+      font-weight: bold;
+      text-transform: uppercase;
+
+      &:hover {
+        color: $naranja-paleta;
+        text-decoration: underline;
+      }
+    }
+  }
+  .navbar-toggler {
+    border: azure solid 3px;
+  }
+}
+
+.h1 {
+  color: white;
+  @include degrade;
+  margin-top: $margin-standar;
+  margin-bottom: $margin-standar;
+  font-weight: bold;
+  font-size: 22px;
+  padding-top: 10px;
+  padding: bottom 10px;
+}
+
+.centrar{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: $fuente;  
+}
+
+.texto{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.subtitulos{
+    border-top: 5px $naranja-paleta double;
+    border-bottom: 5px $verde-paleta double;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: $margin-standar;
+    @extend .centrar; 
+}
+
+footer{
+  background-color: $verde-paleta;
+  font-family: $fuente;
+  font-size: 12px;
+  color: white;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  p{
+    margin: $margin-standar/2;
+  }
+
+  .iconify{
+    font-size: 1.5rem;
+    margin: 5px;
+    color: white;
+    transition: all 0.3s;
+
+    &:hover{
+      width: 35px;
+      height: 35px;
+    } 
+  }
+  .rotate {
+    transform: rotate(15deg);
+  }
+
+  a{
+    color: #121313;
+    font-weight: bold;
+    transition: all 0.3s;
+
+    &:hover{
+      color: $naranja-paleta;
+    }
+  }
+
+}
