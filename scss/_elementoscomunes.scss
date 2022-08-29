@@ -5,7 +5,6 @@
   padding: 0;
 }
 
-
 header {
   background-color: $verde-paleta;
 
@@ -46,33 +45,33 @@ header {
   padding: bottom 10px;
 }
 
-.centrar{
-    text-align: center;
+.centrar {
+  text-align: center;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-body{
-    font-family: $fuente;  
+body {
+  font-family: $fuente;
 }
 
-.texto{
-    font-size: 18px;
-    font-weight: bold;
+.texto {
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.subtitulos{
-    border-top: 5px $naranja-paleta double;
-    border-bottom: 5px $verde-paleta double;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-bottom: $margin-standar;
-    @extend .centrar; 
+.subtitulos {
+  border-top: 5px $naranja-paleta double;
+  border-bottom: 5px $verde-paleta double;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: $margin-standar;
+  @extend .centrar;
 }
 
-footer{
+footer {
   background-color: $verde-paleta;
   font-family: $fuente;
   font-size: 12px;
@@ -82,33 +81,32 @@ footer{
   justify-content: space-between;
   align-items: center;
 
-  p{
+  p {
     margin: $margin-standar/2;
   }
 
-  .iconify{
+  .iconify {
     font-size: 1.5rem;
     margin: 5px;
     color: white;
     transition: all 0.3s;
 
-    &:hover{
+    &:hover {
       width: 35px;
       height: 35px;
-    } 
+    }
   }
   .rotate {
     transform: rotate(15deg);
   }
 
-  a{
+  a {
     color: #121313;
     font-weight: bold;
     transition: all 0.3s;
 
-    &:hover{
+    &:hover {
       color: $naranja-paleta;
     }
   }
-
 }

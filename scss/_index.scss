@@ -1,44 +1,42 @@
 @import "variables";
 
-.portada{
-    display: flex;
-    margin-bottom: $margin-standar;
+.portada {
+  display: flex;
+  margin-bottom: $margin-standar;
 
-    .carousel{
-        width: 50%;
-        margin-left: $margin-standar/2;
-    }
+  .carousel {
+    width: 50%;
+    margin-left: $margin-standar/2;
+  }
 
-        .imgcar{
-            height: 500px;
-            object-fit: cover;
-        }
-    
+  .imgcar {
+    height: 500px;
+    object-fit: cover;
+  }
 
-    .section1{
-        background-color: $naranja-paleta;
-        padding: 40px;
-        line-height: 1.5;
-        @include alineacionCentral;
-        width: 50%;
-        margin-right: $margin-standar/2;
-        margin-bottom: 0%;
-    }
+  .section1 {
+    background-color: $naranja-paleta;
+    padding: 40px;
+    line-height: 1.5;
+    @include alineacionCentral;
+    width: 50%;
+    margin-right: $margin-standar/2;
+    margin-bottom: 0%;
+  }
 }
 
 @media (max-width: 699px) {
-    .portada {
-      display: flex;
-      flex-direction: column-reverse;
-    
-    
-      .carousel {
+  .portada {
+    display: flex;
+    flex-direction: column-reverse;
+
+    .carousel {
       width: 100%;
       margin-left: 0%;
     }
-     
+
     .section1 {
-      width:100%;
+      width: 100%;
       margin-top: $margin-standar;
       margin-right: 0%;
     }
