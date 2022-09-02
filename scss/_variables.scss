@@ -2,6 +2,7 @@ $verde-paleta: #006736;
 $naranja-paleta: #db9300;
 $margin-standar: 1rem;
 $fuente: "Ruda", sans-serif;
+$estilosSecundarios: (color:white, negrita: bold);
 
 @mixin degrade {
   background: rgb(0, 103, 48);

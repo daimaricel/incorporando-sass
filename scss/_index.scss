@@ -7,6 +7,10 @@
   .carousel {
     width: 50%;
     margin-left: $margin-standar/2;
+
+    .carousel-item{
+      transition: 3s;
+    }
   }
 
   .imgcar {

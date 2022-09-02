@@ -89,6 +89,8 @@ footer {
   .portada .carousel {
     width: 50%;
     margin-left: 0.5rem; }
+    .portada .carousel .carousel-item {
+      transition: 3s; }
   .portada .imgcar {
     height: 500px;
     object-fit: cover; }
