@@ -16,11 +16,11 @@ header {
     a {
       margin: $margin-standar/2;
       width: 170px;
-      color: map-get($estilosSecundarios, color);
+      color: white;
       font-size: 18px;
       transition: all 0.5s;
       @include alineacionCentral;
-      font-weight: map-get($estilosSecundarios , negrita);
+      font-weight: bold;
       text-transform: uppercase;
 
       &:hover {
@@ -35,14 +35,14 @@ header {
 }
 
 .h1 {
-  color: map-get($estilosSecundarios , color);
+  color: white;
   @include degrade;
   margin-top: $margin-standar;
   margin-bottom: $margin-standar;
   font-weight: bold;
   font-size: 22px;
   padding-top: 10px;
-  padding: bottom 10px;
+  padding-bottom: 10px;
 }
 
 .centrar {
@@ -59,7 +59,7 @@ body {
 
 .texto {
   font-size: 18px;
-  font-weight: map-get($estilosSecundarios, negrita);
+  font-weight: bold;
 }
 
 .subtitulos {
@@ -75,7 +75,7 @@ footer {
   background-color: $verde-paleta;
   font-family: $fuente;
   font-size: 12px;
-  color: map-get($estilosSecundarios , color);
+  color: white;
   padding: 8px;
   display: flex;
   justify-content: space-between;
@@ -88,7 +88,7 @@ footer {
   .iconify {
     font-size: 1.5rem;
     margin: 5px;
-    color: map-get ($estilosSecundarios, color);
+    color: white;
     transition: all 0.3s;
 
     &:hover {
@@ -102,7 +102,7 @@ footer {
 
   a {
     color: #121313;
-    font-weight: map-get($estilosSecundarios, color);
+    font-weight: white;
     transition: all 0.3s;
 
     &:hover {

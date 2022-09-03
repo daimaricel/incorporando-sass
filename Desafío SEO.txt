@@ -1,0 +1,10 @@
+Desafío SEO
+
+Cambios realizados:
+
+1) Optimicé el tamaño de las imágenes, las convertí en .webp y utilicé la herramienta que provee tinyjpg.com para comprimirlas. 
+2) Modifiqué los títulos para que en cada página sean distintos.
+3) Agregué una descripción en cada página con el uso de la etiqueta meta.
+4) Me aseguré de haber colocado una etiqueta h1 en cada página y en caso de usar otros encabezados, que respeten el orden correspodiente.
+
+ 

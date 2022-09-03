@@ -1,0 +1,69 @@
+@import "variables";
+
+.clases {
+  display: flex;
+
+  .imgClases {
+    width: 55%;
+    margin-right: $margin-standar/2;
+    height: map-get($mapa, height);
+    object-fit: cover;
+  }
+
+  .parClases {
+    background-color: $naranja-paleta;
+    padding: 25px;
+    line-height: map-get($mapa, line-height);
+    @include alineacionCentral;
+    margin-left: $margin-standar/2;
+  }
+
+  .formBox {
+    margin-left: $margin-standar/2;
+    border: $verde-paleta 3px solid;
+    padding: 10px;
+    margin-bottom: $margin-standar;
+
+    .enviar {
+      background-color: $verde-paleta;
+      font-weight: bold;
+      transition: all 0.5s;
+
+      &:hover {
+        background-color: $naranja-paleta;
+      }
+    }
+
+    .modal {
+      color: $verde-paleta;
+      font-weight: bold;
+    }
+
+    .modal-title {
+      color: $naranja-paleta;
+      font-style: oblique;
+      font-weight: bold;
+    }
+  }
+}
+
+@media (max-width: 699px) {
+  .clases {
+    display: flex;
+    flex-direction: column;
+
+    .imgClases {
+      width: 100%;
+      height: 400px;
+      margin-right: 0px;
+    }
+
+    .parClases {
+      margin-left: 0px;
+      margin-top: 1rem;
+    }
+    .formBox {
+      margin-left: 0px;
+    }
+  }
+}

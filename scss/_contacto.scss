@@ -1,0 +1,61 @@
+@import "variables";
+
+.contenedorContacto {
+  display: flex;
+  margin-bottom: $margin-standar;
+
+  .contactoFlex {
+    display: flex;
+    flex-direction: column;
+
+    .parContacto {
+      background-color: $naranja-paleta;
+      padding: 25px;
+      line-height: map-get($mapa, line-height);
+      @include alineacionCentral;
+    }
+
+    p {
+      margin-right: $margin-standar/2;
+    }
+
+    .text2 {
+      margin-top: 1rem;
+    }
+
+    .box {
+      border: 3px $verde-paleta solid;
+      margin-right: $margin-standar/2;
+      padding: 10px;
+    }
+  }
+
+  .imgLuces {
+    margin-left: $margin-standar/2;
+    object-fit: cover;
+  }
+}
+
+#ig {
+  color: black;
+}
+
+@media (max-width: 699px) {
+  .contenedorContacto {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .contactoFlex p {
+    margin-right: 0px;
+  }
+  .box {
+    margin-right: 0px;
+  }
+
+  .imgLuces {
+    margin-left: 0px;
+    height: 400px;
+    margin-bottom: 1rem;
+  }
+}

@@ -2,7 +2,10 @@ $verde-paleta: #006736;
 $naranja-paleta: #db9300;
 $margin-standar: 1rem;
 $fuente: "Ruda", sans-serif;
-$estilosSecundarios: (color:white, negrita: bold);
+$mapa: (
+  height: 710px,
+  line-height: 1.5,
+);
 
 @mixin degrade {
   background: rgb(0, 103, 48);

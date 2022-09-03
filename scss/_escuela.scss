@@ -1,0 +1,69 @@
+@import "variables";
+
+.contenedorEscuela {
+  display: flex;
+  margin-bottom: $margin-standar;
+
+  .escuelaFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: $margin-standar/2;
+
+    .parEscuela {
+      background-color: $naranja-paleta;
+      padding: 25px;
+      line-height: map-get($mapa, line-height);
+      @include alineacionCentral;
+    }
+
+    .alinear {
+      display: flex;
+      justify-content: center;
+    }
+
+    .lista2 {
+      display: flex;
+      justify-content: space-evenly;
+
+      .alinear2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p {
+          font-size: 1.3rem;
+          font-weight: bolder;
+        }
+      }
+    }
+  }
+
+  .imgMariposa {
+    width: 500px;
+    margin-left: $margin-standar/2;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 850px) {
+  .contenedorEscuela {
+    display: flex;
+    flex-direction: column-reverse;
+
+    .imgMariposa {
+      margin-left: 0px;
+      width: 100%;
+      margin-bottom: $margin-standar;
+    }
+
+    .escuelaFlex {
+      margin-right: 0px;
+
+      .lista2 {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}

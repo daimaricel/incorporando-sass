@@ -1,27 +1,41 @@
 @import "variables";
 
 .contenedorAlquiler {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.video {
+  width: 50%;
+  margin-left: $margin-standar/2;
+}
+
+@media (min-width: 700px) and (max-width: 1100px) {
+  .contenedorAlquiler {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
   }
-  
-  .video {
-    width: 50%;
-    margin-left: $margin-standar/2;
-  }
+}
 
-  @media (min-width: 700px) and (max-width: 1100px) {
-    .contenedorAlquiler {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-    }
-  }
+@media (max-width: 699px) {
+  .contenedorAlquiler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
-  @media (max-width: 699px) {
-    .contenedorAlquiler {
+    div {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      align-items: center;
+      margin-left: 10px;
+      margin-top: 5px;
+      margin-bottom: 5px;
     }
+  }
+
+  .video {
+    width: 100%;
+    margin-left: 0%;
+  }
 }

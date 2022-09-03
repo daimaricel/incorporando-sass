@@ -33,7 +33,7 @@ header {
   font-weight: bold;
   font-size: 22px;
   padding-top: 10px;
-  padding: bottom 10px; }
+  padding-bottom: 10px; }
 
 .centrar, .subtitulos {
   text-align: center; }
@@ -78,7 +78,7 @@ footer {
     transform: rotate(15deg); }
   footer a {
     color: #121313;
-    font-weight: bold;
+    font-weight: white;
     transition: all 0.3s; }
     footer a:hover {
       color: #db9300; }
@@ -92,7 +92,7 @@ footer {
     .portada .carousel .carousel-item {
       transition: 3s; }
   .portada .imgcar {
-    height: 500px;
+    height: 400px;
     object-fit: cover; }
   .portada .section1 {
     background-color: #db9300;
@@ -116,3 +116,169 @@ footer {
       width: 100%;
       margin-top: 1rem;
       margin-right: 0%; } }
+
+.contenedorAlquiler {
+  display: flex;
+  justify-content: space-evenly; }
+
+.video {
+  width: 50%;
+  margin-left: 0.5rem; }
+
+@media (min-width: 700px) and (max-width: 1100px) {
+  .contenedorAlquiler {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; } }
+
+@media (max-width: 699px) {
+  .contenedorAlquiler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    .contenedorAlquiler div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 10px;
+      margin-top: 5px;
+      margin-bottom: 5px; }
+  .video {
+    width: 100%;
+    margin-left: 0%; } }
+
+.clases {
+  display: flex; }
+  .clases .imgClases {
+    width: 55%;
+    margin-right: 0.5rem;
+    height: 710px;
+    object-fit: cover; }
+  .clases .parClases {
+    background-color: #db9300;
+    padding: 25px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem; }
+  .clases .formBox {
+    margin-left: 0.5rem;
+    border: #006736 3px solid;
+    padding: 10px;
+    margin-bottom: 1rem; }
+    .clases .formBox .enviar {
+      background-color: #006736;
+      font-weight: bold;
+      transition: all 0.5s; }
+      .clases .formBox .enviar:hover {
+        background-color: #db9300; }
+    .clases .formBox .modal {
+      color: #006736;
+      font-weight: bold; }
+    .clases .formBox .modal-title {
+      color: #db9300;
+      font-style: oblique;
+      font-weight: bold; }
+
+@media (max-width: 699px) {
+  .clases {
+    display: flex;
+    flex-direction: column; }
+    .clases .imgClases {
+      width: 100%;
+      height: 400px;
+      margin-right: 0px; }
+    .clases .parClases {
+      margin-left: 0px;
+      margin-top: 1rem; }
+    .clases .formBox {
+      margin-left: 0px; } }
+
+.contenedorEscuela {
+  display: flex;
+  margin-bottom: 1rem; }
+  .contenedorEscuela .escuelaFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 0.5rem; }
+    .contenedorEscuela .escuelaFlex .parEscuela {
+      background-color: #db9300;
+      padding: 25px;
+      line-height: 1.5;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    .contenedorEscuela .escuelaFlex .alinear {
+      display: flex;
+      justify-content: center; }
+    .contenedorEscuela .escuelaFlex .lista2 {
+      display: flex;
+      justify-content: space-evenly; }
+      .contenedorEscuela .escuelaFlex .lista2 .alinear2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .contenedorEscuela .escuelaFlex .lista2 .alinear2 p {
+          font-size: 1.3rem;
+          font-weight: bolder; }
+  .contenedorEscuela .imgMariposa {
+    width: 500px;
+    margin-left: 0.5rem;
+    object-fit: cover; }
+
+@media (max-width: 850px) {
+  .contenedorEscuela {
+    display: flex;
+    flex-direction: column-reverse; }
+    .contenedorEscuela .imgMariposa {
+      margin-left: 0px;
+      width: 100%;
+      margin-bottom: 1rem; }
+    .contenedorEscuela .escuelaFlex {
+      margin-right: 0px; }
+      .contenedorEscuela .escuelaFlex .lista2 {
+        display: flex;
+        flex-direction: column; } }
+
+.contenedorContacto {
+  display: flex;
+  margin-bottom: 1rem; }
+  .contenedorContacto .contactoFlex {
+    display: flex;
+    flex-direction: column; }
+    .contenedorContacto .contactoFlex .parContacto {
+      background-color: #db9300;
+      padding: 25px;
+      line-height: 1.5;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    .contenedorContacto .contactoFlex p {
+      margin-right: 0.5rem; }
+    .contenedorContacto .contactoFlex .text2 {
+      margin-top: 1rem; }
+    .contenedorContacto .contactoFlex .box {
+      border: 3px #006736 solid;
+      margin-right: 0.5rem;
+      padding: 10px; }
+  .contenedorContacto .imgLuces {
+    margin-left: 0.5rem;
+    object-fit: cover; }
+
+#ig {
+  color: black; }
+
+@media (max-width: 699px) {
+  .contenedorContacto {
+    display: flex;
+    flex-direction: column-reverse; }
+  .contactoFlex p {
+    margin-right: 0px; }
+  .box {
+    margin-right: 0px; }
+  .imgLuces {
+    margin-left: 0px;
+    height: 400px;
+    margin-bottom: 1rem; } }
