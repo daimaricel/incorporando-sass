@@ -8,13 +8,6 @@
     display: flex;
     flex-direction: column;
 
-    .parContacto {
-      background-color: $naranja-paleta;
-      padding: 25px;
-      line-height: map-get($mapa, line-height);
-      @include alineacionCentral;
-    }
-
     p {
       margin-right: $margin-standar/2;
     }
@@ -28,6 +21,13 @@
       margin-right: $margin-standar/2;
       padding: 10px;
     }
+  }
+
+  .parContacto {
+    background-color: $naranja-paleta;
+    padding: 25px;
+    line-height: map-get($mapa, line-height);
+    @include alineacionCentral;
   }
 
   .imgLuces {
@@ -44,18 +44,19 @@
   .contenedorContacto {
     display: flex;
     flex-direction: column-reverse;
-  }
 
-  .contactoFlex p {
-    margin-right: 0px;
-  }
-  .box {
-    margin-right: 0px;
-  }
+    .imgLuces {
+      margin-left: 0px;
+      height: 400px;
+      margin-bottom: 1rem;
+    }
 
-  .imgLuces {
-    margin-left: 0px;
-    height: 400px;
-    margin-bottom: 1rem;
+    .contactoFlex p {
+      margin-right: 0px;
+    }
+
+    .contactoFlex .box {
+      margin-right: 0px;
+    }
   }
 }

@@ -248,13 +248,6 @@ footer {
   .contenedorContacto .contactoFlex {
     display: flex;
     flex-direction: column; }
-    .contenedorContacto .contactoFlex .parContacto {
-      background-color: #db9300;
-      padding: 25px;
-      line-height: 1.5;
-      display: flex;
-      align-items: center;
-      justify-content: center; }
     .contenedorContacto .contactoFlex p {
       margin-right: 0.5rem; }
     .contenedorContacto .contactoFlex .text2 {
@@ -263,6 +256,13 @@ footer {
       border: 3px #006736 solid;
       margin-right: 0.5rem;
       padding: 10px; }
+  .contenedorContacto .parContacto {
+    background-color: #db9300;
+    padding: 25px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
   .contenedorContacto .imgLuces {
     margin-left: 0.5rem;
     object-fit: cover; }
@@ -274,11 +274,11 @@ footer {
   .contenedorContacto {
     display: flex;
     flex-direction: column-reverse; }
-  .contactoFlex p {
-    margin-right: 0px; }
-  .box {
-    margin-right: 0px; }
-  .imgLuces {
-    margin-left: 0px;
-    height: 400px;
-    margin-bottom: 1rem; } }
+    .contenedorContacto .imgLuces {
+      margin-left: 0px;
+      height: 400px;
+      margin-bottom: 1rem; }
+    .contenedorContacto .contactoFlex p {
+      margin-right: 0px; }
+    .contenedorContacto .contactoFlex .box {
+      margin-right: 0px; } }
