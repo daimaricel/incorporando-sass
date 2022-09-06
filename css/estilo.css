@@ -91,8 +91,10 @@ footer {
     margin-left: 0.5rem; }
     .portada .carousel .carousel-item {
       transition: 3s;
-      height: 350px;
-      object-fit: cover; }
+      height: 350px; }
+      .portada .carousel .carousel-item .d-block {
+        height: 400px;
+        object-fit: cover; }
   .portada .section1 {
     background-color: #db9300;
     padding: 40px;
@@ -104,7 +106,7 @@ footer {
     margin-right: 0.5rem;
     margin-bottom: 0%; }
 
-@media (max-width: 699px) {
+@media (max-width: 899px) {
   .portada {
     display: flex;
     flex-direction: column-reverse; }

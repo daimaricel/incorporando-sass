@@ -11,7 +11,11 @@
     .carousel-item {
       transition: 3s;
       height: 350px;
-      object-fit: cover;
+     
+      .d-block{
+        height: 400px;
+        object-fit: cover;
+      }
     }
   }
 
@@ -26,7 +30,7 @@
   }
 }
 
-@media (max-width: 699px) {
+@media (max-width: 899px) {
   .portada {
     display: flex;
     flex-direction: column-reverse;
