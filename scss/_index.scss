@@ -10,12 +10,9 @@
 
     .carousel-item {
       transition: 3s;
+      height: 350px;
+      object-fit: cover;
     }
-  }
-
-  .imgcar {
-    height: 400px;
-    object-fit: cover;
   }
 
   .section1 {

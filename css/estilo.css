@@ -90,10 +90,9 @@ footer {
     width: 50%;
     margin-left: 0.5rem; }
     .portada .carousel .carousel-item {
-      transition: 3s; }
-  .portada .imgcar {
-    height: 400px;
-    object-fit: cover; }
+      transition: 3s;
+      height: 350px;
+      object-fit: cover; }
   .portada .section1 {
     background-color: #db9300;
     padding: 40px;
@@ -201,7 +200,7 @@ footer {
   .contenedorEscuela .escuelaFlex {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-right: 0.5rem; }
     .contenedorEscuela .escuelaFlex .parEscuela {
       background-color: #db9300;
