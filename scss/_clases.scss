@@ -6,8 +6,9 @@
   .imgClases {
     width: 55%;
     margin-right: $margin-standar/2;
-    height: map-get($mapa, height);
+    height: auto;
     object-fit: cover;
+    margin-bottom: $margin-standar;
   }
 
   .parClases {
@@ -23,8 +24,6 @@
     border: $verde-paleta 3px solid;
     padding: 10px;
     margin-bottom: $margin-standar;
-
-  
 
     .modal {
       color: $verde-paleta;
@@ -52,7 +51,6 @@
 
     .parClases {
       margin-left: 0px;
-      margin-top: 1rem;
     }
     .formBox {
       margin-left: 0px;

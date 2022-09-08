@@ -132,9 +132,22 @@ footer {
   display: flex;
   justify-content: space-evenly; }
 
-.video {
-  width: 50%;
-  margin-left: 0.5rem; }
+.section2 {
+  display: flex;
+  margin-bottom: 1rem; }
+  .section2 p {
+    background-color: #db9300;
+    padding: 40px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-right: 0.5rem;
+    margin-bottom: 0%; }
+  .section2 .video {
+    width: 50%;
+    margin-left: 0.5rem; }
 
 @media (min-width: 700px) and (max-width: 1100px) {
   .contenedorAlquiler {
@@ -154,17 +167,24 @@ footer {
       margin-left: 10px;
       margin-top: 5px;
       margin-bottom: 5px; }
-  .video {
-    width: 100%;
-    margin-left: 0%; } }
+  .section2 {
+    display: flex;
+    flex-direction: column-reverse; }
+    .section2 .video {
+      width: 100%;
+      margin-left: 0%; }
+    .section2 p {
+      width: 100%;
+      margin-top: 1rem; } }
 
 .clases {
   display: flex; }
   .clases .imgClases {
     width: 55%;
     margin-right: 0.5rem;
-    height: 710px;
-    object-fit: cover; }
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 1rem; }
   .clases .parClases {
     background-color: #db9300;
     padding: 25px;
@@ -195,8 +215,7 @@ footer {
       height: 400px;
       margin-right: 0px; }
     .clases .parClases {
-      margin-left: 0px;
-      margin-top: 1rem; }
+      margin-left: 0px; }
     .clases .formBox {
       margin-left: 0px; } }
 
@@ -269,7 +288,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center; }
-  .contenedorContacto .imgLuces {
+  .contenedorContacto .imgPalmera {
     margin-left: 0.5rem;
     object-fit: cover;
     width: 500px;
@@ -282,9 +301,9 @@ footer {
   .contenedorContacto {
     display: flex;
     flex-direction: column-reverse; }
-    .contenedorContacto .imgLuces {
+    .contenedorContacto .imgPalmera {
       margin-left: 0px;
-      height: 400px;
+      viewport-fit: 30%;
       margin-bottom: 1rem;
       width: 100%; }
     .contenedorContacto .contactoFlex p {
