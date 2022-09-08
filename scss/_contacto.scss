@@ -33,6 +33,8 @@
   .imgLuces {
     margin-left: $margin-standar/2;
     object-fit: cover;
+    width: 500px;
+    height: auto;
   }
 }
 
@@ -49,6 +51,7 @@
       margin-left: 0px;
       height: 400px;
       margin-bottom: 1rem;
+      width: 100%;
     }
 
     .contactoFlex p {

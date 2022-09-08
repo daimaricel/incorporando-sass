@@ -46,7 +46,7 @@
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
   .contenedorEscuela {
     display: flex;
     flex-direction: column-reverse;
@@ -55,6 +55,7 @@
       margin-left: 0px;
       width: 100%;
       margin-bottom: $margin-standar;
+      height: 400px;
     }
 
     .escuelaFlex {
