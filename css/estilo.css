@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Ruda:wght@400;900&display=swap");
 * {
   margin: 0;
@@ -82,6 +83,15 @@ footer {
     transition: all 0.3s; }
     footer a:hover {
       color: #db9300; }
+
+/*Botón formularios*/
+.enviar {
+  background-color: #006736;
+  font-weight: bold;
+  color: white;
+  transition: all 0.5s; }
+  .enviar:hover {
+    background-color: #db9300; }
 
 .portada {
   display: flex;
@@ -168,12 +178,6 @@ footer {
     border: #006736 3px solid;
     padding: 10px;
     margin-bottom: 1rem; }
-    .clases .formBox .enviar {
-      background-color: #006736;
-      font-weight: bold;
-      transition: all 0.5s; }
-      .clases .formBox .enviar:hover {
-        background-color: #db9300; }
     .clases .formBox .modal {
       color: #006736;
       font-weight: bold; }

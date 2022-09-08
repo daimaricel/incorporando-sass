@@ -24,15 +24,7 @@
     padding: 10px;
     margin-bottom: $margin-standar;
 
-    .enviar {
-      background-color: $verde-paleta;
-      font-weight: bold;
-      transition: all 0.5s;
-
-      &:hover {
-        background-color: $naranja-paleta;
-      }
-    }
+  
 
     .modal {
       color: $verde-paleta;

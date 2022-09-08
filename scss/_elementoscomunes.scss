@@ -110,3 +110,16 @@ footer {
     }
   }
 }
+
+/*Botón formularios*/
+
+.enviar {
+  background-color: $verde-paleta;
+  font-weight: bold;
+  color:white;
+  transition: all 0.5s;
+
+  &:hover {
+    background-color: $naranja-paleta;
+  }
+}
