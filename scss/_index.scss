@@ -7,12 +7,13 @@
   .carousel {
     width: 50%;
     margin-left: $margin-standar/2;
+    height: auto;
 
     .carousel-item {
-      transition: 1s;
-      height: 350px;
-     
-      .d-block{
+      transition: 0, 5s;
+      height: auto;
+
+      .d-block {
         height: 400px;
         object-fit: cover;
       }
